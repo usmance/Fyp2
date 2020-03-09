@@ -1,0 +1,17 @@
+{ 
+    "data":[
+         {"text":"Conference", "start_date":"2012-09-17 12:00", "end_date":"2012-09-18 21:00", 
+    "room_id":"1"},
+    {"text":"Meeting",    "start_date":"2012-09-17 09:00", "end_date":"2012-09-17 21:00", 
+    "room_id":"2"},
+    {"text":"Conference", "start_date":"2012-09-17 15:00", "end_date":"2012-09-18 15:00", 
+    "room_id":"3"}
+    ], 
+    "collections": {
+       "sections":[
+          {"value":"1","label":"Room-1"},
+          {"value":"2","label":"Room-2"},
+          {"value":"3","label":"Room-3"}
+       ]
+    }
+ }

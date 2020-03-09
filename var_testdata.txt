@@ -1,0 +1,39 @@
+
+ 
+// parse application/json
+
+
+
+
+var testData= {"data":[
+    { "text":"Site #1", "parent":0, "id":"1", "open" :true, "progress":0.42 },
+    {
+        "text": "Yaqoob",
+        "start_date": "04-11-2013 10:00",
+        "duration": 36,
+        "progress": 0,
+        "parent": 0,
+        "id": 1,
+        "end_date":"04-11-2013 14:00","owner":"1"
+        },
+    {"text":"Site Structure","start_date":"04-11-2013 10:00","duration":4,"progress":0.8428571428571429,"parent":0,"id":1379082074911,"end_date":"04-11-2013 14:00","owner":"1"},
+    {"text":"Visual Design","start_date":"04-11-2013 12:00","duration":5,"progress":0.6,"parent":1,"id":1379082074912,"end_date":"04-11-2013 17:00","owner":"3"},
+    {"text":"Site development","start_date":"04-11-2013 12:00","duration":7,"progress":0.3,"parent":1,"id":1379082074913,"end_date":"04-11-2013 19:00","owner":"2"},
+    {"text":"Test and Refine","start_date":"04-11-2013 17:00","duration":4,"progress":0.25,"parent":1,"id":1379082074914,"end_date":"04-11-2013 21:00","owner":"1"},
+    {"text":"Launch","start_date":"04-11-2013 21:00","duration":1,"progress":0,"parent":1,"id":1379082074915,"owner":"3"},
+    {"text":"Launch","start_date":"04-11-2013 21:00","duration":1,"progress":0,"parent":1,"id":1379082074965,"owner":"3"},
+    {"text":"Site #2","progress":0.25,"parent":0,"id":1379339521965, "owner":"0","open":true},
+    {"text":"Project Defenition","start_date":"04-11-2013 08:00","duration":3,"progress":1,"parent":"1379339521965","id":1379339521969,"end_date":"04-11-2013 11:00","owner":"2"},
+    {"text":"Site Structure","start_date":"04-11-2013 09:00","duration":3,"progress":0.9224806201550387,"parent":"1379339521965","id":1379339521970,"end_date":"04-11-2013 12:00","owner":"2"},
+    {"text":"Visual Design","start_date":"04-11-2013 10:00","duration":2,"progress":1,"parent":"1379339521965","id":1379339521971,"end_date":"04-11-2013 12:00","owner":"3"},
+    {"text":"Site Development","start_date":"04-11-2013 10:00","duration":7,"progress":0.7491694352159468,"parent":"1379339521965","id":1379339521972,"end_date":"04-11-2013 17:00","owner":"4"},
+    {"text":"Test and Refine","start_date":"04-11-2013 16:00","duration":4,"progress":0.5,"parent":"1379339521965","id":1379339521973,"end_date":"04-11-2013 20:00","owner":"3"},
+    {"text":"Launch","start_date":"04-11-2013 20:00","duration":2,"progress":0,"parent":"1379339521965","id":1379339521974,"end_date":"04-11-2013 22:00","owner":"1"}
+]
+}
+
+var testData2={"data":[{"Operation":4,"Machine":0,"OpCode":0,"duration":1,"progress":0,"start_date":"09-09-2020 01:18:00","id":1,"text":4,"parent":0},
+{"Operation":4,"Machine":0,"OpCode":0,"duration":.52,"progress":0,"start_date":"09-09-2020 01:27:00","id":2,"text":4,"parent":0},
+{"Operation":0,"Machine":0,"OpCode":0,"duration":.36,"progress":0,"start_date":"09-09-2020 09:00:00","id":3,"text":0,"parent":0},
+{"Operation":4,"Machine":0,"OpCode":0,"duration":.77,"progress":0,"start_date":"09-09-2020 02:19:00","id":4,"text":4,"parent":0}]}
+
